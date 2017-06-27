@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+   <title>animation_prac</title>
+   <style type="text/css">
+      .blank{
+         height:50px;
+      }
+      .box_1{
+         width:100px;
+         height: 100px;
+         background-color: green;
+         border:2px solid black;
+         transition:all 300ms;
+         margin:auto;
+         line-height: 30px;
+         text-align:center;
+      }
+      .box_1:hover{
+         transform:scale(2);
+         opacity: 0.2;
+      }
+      .box_1:active{
+         transform:translate(100px,0) rotate(45deg);
+      }
+
+      .box_2{
+         width:100px;
+         height: 100px;
+         background-color: green;
+         border:2px solid black;
+         transition:all 300ms;
+         margin:auto;
+         text-align:center;
+         line-height: 30px;
+      }
+      .box_2:hover{
+         transform:scale(3);
+         opacity:0.5;
+      }
+      .box_2:active{
+         transform:translate(-100px,0) rotate(-45deg);
+      }
+   </style>
+</head>
+<body>
+   <!--<div class="blank"></div>-->
+   <div class="box_1">박스1</div>
+   <div class="blank"></div>
+   <div class="box_2">박스2</div>
+</body>
+</html>
