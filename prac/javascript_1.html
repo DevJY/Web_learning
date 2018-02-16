@@ -26,6 +26,28 @@
 		{
 			alert('아이디 불일치');
 		}
+		function numbering()
+		{
+			i = 0;
+			while (i < 10)
+			{
+				document.write(i);
+				i += 1;
+			}
+		}
+
+		var numbering2 = function()
+		{
+			i = 10;
+			while (i > 0)
+			{
+				document.write(i);
+				i -= 1;
+			}
+		}
+
+		numbering();
+		numbering2();
 	</script>
 </body>
 </html>
