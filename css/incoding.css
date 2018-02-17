@@ -1,0 +1,52 @@
+body
+{
+	background-color: #404040;
+	margin: auto;
+}
+#title_background
+{
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+#Title
+{
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: "Courier New";
+	font-weight: bold;
+	padding: 5px;
+}
+#main_background
+{
+	margin: auto;
+	padding: 10px;
+	background-color: #ffffff;
+}
+.chapter
+{
+	background-color: #d3d3d3;
+	color: #ff0077;
+	font-family: "맑은고딕";
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+}
+.contents
+{
+	font-family: "맑은고딕";
+	font-size: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#Button
+{
+	background-color: #ff0077;
+	border: none;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
